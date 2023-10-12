@@ -196,53 +196,53 @@ Part 1b - Step 2: Assignment
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 
-Thing 1)
+Thing 1) Corner Shop
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) registered business name
+    2) location
+    3) year established
+    4) number of employees
+    5) yearly earning figure(s)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) predict monthly revenue
+    2) hire new employees
+    3) close down shop
 
-Thing 2)
+Thing 2) Artist Instagram Profile
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) follower count
+    2) number of posts
+    3) number of external link taps in the past month 
+    4) number of accounts reached in the past month
+    5) number of accounts engaged in the past month
 3 things it can do:
-    1)
-    2)
-    3)
+    1) share posts to followers
+    2) use ad tools to promote posts
+    3) message other users
 
-Thing 3)
+Thing 3) Sports Centre
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) location
+    2) price per month
+    3) number of members
+    4) opening time
+    5) closing time
 3 things it can do:
-    1)
-    2)
-    3)
+    1) host classes
+    2) block entry to invalid members
+    3) register new members
 
-Thing 4)
+Thing 4) Online Job Listing
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) job title
+    2) salary
+    3) job description
+    4) job location
+    5) deadline date
 3 things it can do:
-    1)
-    2)
-    3)
+    1) get current number of applicants
+    2) accept applicants into the interview stage
+    3) reject applicants
 */
 
 /*

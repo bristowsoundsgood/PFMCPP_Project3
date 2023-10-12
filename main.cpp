@@ -195,56 +195,7 @@ Part 1b - Step 2: Assignment
         primitives.
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
-
-Thing 1) Corner Shop
-5 properties:
-    1) registered business name
-    2) location
-    3) year established
-    4) number of employees
-    5) yearly earning figure(s)
-3 things it can do:
-    1) predict monthly revenue
-    2) hire new employees
-    3) close down shop
-
-Thing 2) Artist Instagram Profile
-5 properties:
-    1) follower count
-    2) number of posts
-    3) number of external link taps in the past month 
-    4) number of accounts reached in the past month
-    5) number of accounts engaged in the past month
-3 things it can do:
-    1) share posts to followers
-    2) use ad tools to promote posts
-    3) message other users
-
-Thing 3) Sports Centre
-5 properties:
-    1) location
-    2) price per month
-    3) number of members
-    4) opening time
-    5) closing time
-3 things it can do:
-    1) host classes
-    2) block entry to invalid members
-    3) register new members
-
-Thing 4) Online Job Listing
-5 properties:
-    1) job title
-    2) salary
-    3) job description
-    4) job location
-    5) deadline date
-3 things it can do:
-    1) get current number of applicants
-    2) accept applicants into the interview stage
-    3) reject applicants
 */
-
 /*
 =================
 Part 1b - Step 3: Commit
@@ -336,18 +287,6 @@ Part 1c - Step 4: Assignment
 Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
-
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
  */
 
  /*
@@ -434,67 +373,7 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
  */
-
 /*
 =================
 Part 1d - Step 3: Commit
@@ -527,7 +406,6 @@ Part 1d - Step 5: Commit
 Now that you've made changes to the code, make a commit!
 Be sure to make the commit message meaningful.
 */
-
 /*
 ===================
 Part 1d - Step 6: assignment
@@ -543,15 +421,127 @@ MOVE THEM to the space below this block comment and put them in numerical order
     I do not want to see 2 copies of your Plain-English UDTs.  
     I only want to see the 10 UDTs written BELOW this block comment, in numerical order (1 - 10).
     simply CUT and PASTE them in the space provided below:
+
+    Thing 1) Corner Shop
+    5 properties:
+        1) registered business name 
+        2) location
+        3) year established
+        4) number of employees
+        5) yearly earning figure(s)
+    3 things it can do:
+        1) predict monthly revenue
+        2) hire new employees
+        3) close down shop
+    
+    Thing 2) Artist Instagram Profile
+    5 properties:
+        1) follower count
+        2) number of posts
+        3) number of external link taps in the past month 
+        4) number of accounts reached in the past month
+        5) number of accounts engaged in the past month
+    3 things it can do:
+        1) share posts to followers
+        2) use ad tools to promote posts
+        3) message other users
+    
+    Thing 3) Sports Centre
+    5 properties:
+        1) location
+        2) price per month
+        3) number of members
+        4) opening time
+        5) closing time
+    3 things it can do:
+        1) host classes
+        2) block entry to invalid members
+        3) register new members
+    
+    Thing 4) Online Job Listing
+    5 properties:
+        1) job title
+        2) salary
+        3) job description
+        4) job location
+        5) deadline date
+    3 things it can do:
+        1) get current number of applicants
+        2) accept applicants into interview
+        3) reject applicants from interview
+    
+    Thing 5) SFX Object
+    5 properties:
+        1) source filename (std::string)
+        2) sfx object name (std::string)
+        3) duration (float)
+        4) volume (float)
+        5) priority (int)
+    3 things it can do:
+        1) play source file
+        2) set source file volume
+        3) stop source file
+    
+    Thing 6) Event
+    5 properties:
+        1) event name (std::string)
+        2) action (enum)
+        3) target (std::string)
+        4) delay (float)
+        5) inclusion (bool)
+    3 things it can do:
+        1) receive incoming game event
+        2) perform actions on target
+        3) post
+    
+    Thing 7) Game Sync
+    5 properties:
+        1) sync name (std::string)
+        2) sync type (enum)
+        3) sync work unit (std::string)
+        4) sync folder (std::string)
+        5) sync colour (double)
+    3 things it can do:
+        1) receive incoming game information
+        2) switch sfx objects used for playback
+        3) change sfx object properties
+    
+    Thing 8) Interactive Music Hierarchy
+    5 properties:
+        1) music object name (std::string)
+        2) music object type (enum)
+        3) music object work unit (std::string)
+        4) music object folder (std::string)
+        5) music object colour (double)
+    3 things it can do:
+        1) respond to middleware game syncs
+        2) play music segments
+        3) randomise music playback
+    
+    Thing 9) Soundbank
+    5 properties:
+        1) soundbank name (std::string)
+        2) soundbank id (unsigned int)
+        3) soundbank size (unsigned int)
+        4) soundbank max size (unsigned int)
+        5) soundbank platforms (enum)
+    3 things it can do:
+        1) store all hierarchies for quick loading
+        2) compress data for optimisation
+        3) adapt data for different platforms
+    
+    Thing 10) Game Engine Middleware
+    5 properties:
+        1) SFX Objects
+        2) Events
+        3) Game Syncs
+        4) Interactive Music Hierarchy
+        5) Soundbanks
+    3 things it can do:
+        1) read runtime game events
+        2) play sfx
+        3) randomise sfx properties
 */
-
-
-
-
-
-
-
-
 /*
 =================
 Part 1d - Step 7: Commit

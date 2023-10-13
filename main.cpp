@@ -585,29 +585,176 @@ Task: define an empty struct below your plain-English UDT.
 namespace Part1E_Step1
 {
 /*
-
-my plain-English UDT: 
-
-Thing 1): Car Wash   
-    5 properties:
-        1) number of vacuum cleaners
-        2) number of eco-friendly cleaning supplies
-        3) stores the amount of water used per week.
-        4) stores amount of profit made per week
-        5) number of cars serviced per day
+Thing 1) Corner Shop
+5 properties:
+    1) registered business name (std::string)
+    2) location (std::string)
+    3) year established (unsigned int)
+    4) number of employees (unsigned int)
+    5) yearly earning figure(s) (float)
     3 things it can do:
-        1) wash and wax car
-        2) charge customer
-        3) detail the car interior
- */
-struct CarWash  //This is the empty struct, below my plain-English UDT.  
+        1) predict monthly revenue
+        2) hire new employees
+        3) close down shop
+
+*/
+struct CornerShop
 {
-                //notice that no code is written inside the curly braces.
+
 };
 /*
-Notice that the struct name 'CarWash' conforms with the Course Coding Standard, described in the Readme.MD
+Thing 2) Artist Instagram Profile
+5 properties:
+    1) follower count (unsigned int)
+    2) number of posts (unsigned int)
+    3) number of external link taps in the past month (unsigned int)
+    4) number of accounts reached in the past month (unsigned int)
+    5) number of accounts engaged in the past month (unsigned int)
+3 things it can do:
+    1) share posts to followers
+    2) use ad tools to promote posts
+    3) message other users
 */
+struct ArtistInstagramProfile
+{
 
+};
+/*
+Thing 3) Sports Centre
+5 properties:
+    1) location (std::string)
+    2) price per month (float)
+    3) number of members (unsigned int)
+    4) opening time (float)
+    5) closing time (float)
+3 things it can do:
+    1) host classes
+    2) block entry to invalid members
+    3) register new members
+*/
+struct SportsCentre
+{
+
+};    
+/*
+Thing 4) Online Job Listing
+5 properties:
+    1) job title (std::string)
+    2) salary (float)
+    3) job description (std::string)
+    4) job location (std::string)
+    5) deadline date (std::string)
+3 things it can do:
+    1) get current number of applicants
+    2) accept applicants into interview
+    3) reject applicants from interview
+*/
+struct OnlineJobListing
+{
+
+};
+/*
+Thing 5) SFX Object
+5 properties:
+    1) source filename (std::string)
+    2) sfx object name (std::string)
+    3) duration (float)
+    4) volume (float)
+    5) priority (int)
+3 things it can do:
+    1) play source file
+    2) set source file volume
+    3) stop source file
+*/
+struct SFXObject
+{
+    
+};
+/*
+Thing 6) Event
+5 properties:
+    1) event name (std::string)
+    2) action (enum)
+    3) target (std::string)
+    4) delay (float)
+    5) inclusion (bool)
+3 things it can do:
+    1) receive incoming game event
+    2) perform actions on target
+    3) post
+*/
+struct Event
+{
+
+};  
+/*
+Thing 7) Game Sync
+5 properties:
+    1) sync name (std::string)
+    2) sync type (enum)
+    3) sync work unit (std::string)
+    4) sync folder (std::string)
+    5) sync colour (double)
+3 things it can do:
+    1) receive incoming game information
+    2) switch sfx objects used for playback
+    3) change sfx object properties
+*/
+struct GameSync
+{
+
+};
+/*
+Thing 8) Interactive Music Hierarchy
+5 properties:
+    1) music object name (std::string)
+    2) music object type (enum)
+    3) music object work unit (std::string)
+    4) music object folder (std::string)
+    5) music object colour (double)
+3 things it can do:
+    1) respond to middleware game syncs
+    2) play music segments
+    3) randomise music playback
+*/
+struct InteractiveMusicHierarchy
+{
+
+};
+/*
+Thing 9) Soundbank
+5 properties:
+    1) soundbank name (std::string)
+    2) soundbank id (unsigned int)
+    3) soundbank size (unsigned int)
+    4) soundbank max size (unsigned int)
+    5) soundbank platforms (enum)
+3 things it can do:
+    1) store all hierarchies for quick loading
+    2) compress data for optimisation
+    3) adapt data for different platforms
+*/
+struct Soundbank
+{
+
+};
+/*
+Thing 10) Game Engine Middleware
+5 properties:
+    1) SFX Object
+    2) Events
+    3) Game Sync
+    4) Interactive Music Hierarchy
+    5) Soundbank
+3 things it can do:
+    1) read runtime game events
+    2) play sfx
+    3) randomise sfx properties
+*/
+struct GameAudioMiddleware
+{
+    
+};
 /*
 =================
 Part 1e - Step 2: Commit

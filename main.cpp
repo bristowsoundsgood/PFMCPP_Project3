@@ -587,30 +587,41 @@ namespace Part1E_Step1
 
 struct CornerShop
 {
+    // registered business name
+    std::string registeredBusinessName = "New Zealand Wines";
+    // location
+    std::string location = "Manchester, UK";
+    // year established
+    unsigned int yearEstablished = 1998;
+    // number of employees
+    unsigned int numberofEmployees = 10;
+    // yearly earnings
+    float yearlyEarnings = 46922.79f;
+
     /*
-    5 properties:
-        1) registered business name (std::string)
-        2) location (std::string)
-        3) year established (unsigned int)
-        4) number of employees (unsigned int)
-        5) yearly earning figure(s) (float)
         3 things it can do:
             1) predict monthly revenue
             2) hire new employees
             3) close down shop
 
     */
+    
 };
 
 struct ArtistInstagramProfile
 {
+    // follower count
+    unsigned int followerCount = 148;
+    // number of posts
+    unsigned int numberOfPosts = 1;
+    // number of external link taps in past month
+    unsigned int monthlyExternalLinkTaps = 8;
+    // number of accounts reached in past month
+    unsigned int monthlyAccountsReached = 326;
+    // number of accounts engaged in past month
+    unsigned int monthlyAccountsEngaged = 99;
+
     /*
-    5 properties:
-        1) follower count (unsigned int)
-        2) number of posts (unsigned int)
-        3) number of external link taps in the past month (unsigned int)
-        4) number of accounts reached in the past month (unsigned int)
-        5) number of accounts engaged in the past month (unsigned int)
     3 things it can do:
         1) share posts to followers
         2) use ad tools to promote posts
@@ -620,13 +631,18 @@ struct ArtistInstagramProfile
 
 struct SportsCentre
 {
+    // location
+    std::string location = "Manchester, UK";
+    // price per month 
+    float pricePerMonth = 35.0f;
+    // number of members
+    unsigned int numberOfMembers = 86;
+    // opening time
+    float openingTime = 6.0f;
+    // closing time
+    float closingTime = 22.0f;
+
     /*
-    5 properties:
-        1) location (std::string)
-        2) price per month (float)
-        3) number of members (unsigned int)
-        4) opening time (float)
-        5) closing time (float)
     3 things it can do:
         1) host classes
         2) block entry to invalid members
@@ -636,13 +652,18 @@ struct SportsCentre
 
 struct OnlineJobListing
 {
+    // job title
+    std::string jobTitle = "Technical Sound Designer";
+    // salary
+    float salary = 32000.0f;
+    // job description
+    std::string jobDescription = "Work closely with the audio, music and programming teams to create and implement complex audio         playback systems for games.";
+    // job location
+    std::string jobLocation = "London, UK";
+    // deadline date
+    std::string deadlineDate = "22nd November 2023";
+
     /*
-    5 properties:
-        1) job title (std::string)
-        2) salary (float)
-        3) job description (std::string)
-        4) job location (std::string)
-        5) deadline date (std::string)
     3 things it can do:
         1) get current number of applicants
         2) accept applicants into interview
@@ -652,13 +673,18 @@ struct OnlineJobListing
 
 struct SFXObject
 {
+    // source filename
+    std::string sourceFilename = "JSB_TechReel_FOL_FNL_bulletHitDirt_v1.1";
+    // sfx object name
+    std::string objectName = "Bullet_Hit_Dirt_01";
+    // duration
+    float duration = 1.26f;
+    // volume
+    float volume = 6.00f;
+    // priority
+    int priority = 1;
+
     /*
-    5 properties:
-        1) source filename (std::string)
-        2) sfx object name (std::string)
-        3) duration (float)
-        4) volume (float)
-        5) priority (int)
     3 things it can do:
         1) play source file
         2) set source file volume
@@ -668,13 +694,18 @@ struct SFXObject
 
 struct Event
 {
+    // event name
+    std::string name = "Player_Fire";
+    // action
+    enum Action{play, stop, setState};
+    // target
+    std::string target = "M4_Gunshot";
+    // delay
+    float delay = 0.0f;
+    // inclusion
+    bool included = true;
+
     /*
-    5 properties:
-        1) event name (std::string)
-        2) action (enum)
-        3) target (std::string)
-        4) delay (float)
-        5) inclusion (bool)
     3 things it can do:
         1) receive incoming game event
         2) perform actions on target
@@ -684,13 +715,18 @@ struct Event
 
 struct GameSync
 {
+    // sync name
+    std::string name = "Player Ammo";
+    // sync type
+    enum Type{RTPC};
+    // sync work unit
+    std::string workUnit = "Default Work Unit";
+    // folder
+    std::string folder = "Player RTPCs";
+    // colour
+    std::string colour = "RED";
+
     /*
-    5 properties:
-        1) sync name (std::string)
-        2) sync type (enum)
-        3) sync work unit (std::string)
-        4) sync folder (std::string)
-        5) sync colour (double)
     3 things it can do:
         1) receive incoming game information
         2) switch sfx objects used for playback
@@ -700,13 +736,18 @@ struct GameSync
     
 struct InteractiveMusicHierarchy
 {
+    // music object name
+    std::string musicObjectName = "Explore_A";
+    // music object type
+    enum MusicObjectType{musicPlaylist, musicSegment};
+    // music object work unit
+    std::string workUnit = "Night";
+    // music object folder
+    std::string folder = "Night_Explore";
+    // music object colour
+    std::string colour = "PURPLE";
+
     /*
-    5 properties:
-        1) music object name (std::string)
-        2) music object type (enum)
-        3) music object work unit (std::string)
-        4) music object folder (std::string)
-        5) music object colour (double)
     3 things it can do:
         1) respond to middleware game syncs
         2) play music segments
@@ -716,13 +757,18 @@ struct InteractiveMusicHierarchy
 
 struct Soundbank
 {
+    // soundbank name
+    std::string name = "Main";
+    // soundbank id
+    unsigned int id = 3162752301;
+    // soundbank size
+    unsigned int size = 7221098;
+    // soundbank max size
+    unsigned int maxSize = 9000000;
+    // soundbank platforms
+    enum Platforms{Mac, Windows, PS4};
+
     /*
-    5 properties:
-        1) soundbank name (std::string)
-        2) soundbank id (unsigned int)
-        3) soundbank size (unsigned int)
-        4) soundbank max size (unsigned int)
-        5) soundbank platforms (enum)
     3 things it can do:
         1) store all hierarchies for quick loading
         2) compress data for optimisation
@@ -732,13 +778,18 @@ struct Soundbank
 
 struct GameAudioMiddleware
 {
+    // sfx object
+    SFXObject sfxObject01;
+    // event
+    Event event01;
+    // game sync
+    GameSync gameSync01;
+    // interactive music hierarchy
+    InteractiveMusicHierarchy imh01;
+    // soundbank
+    Soundbank soundbank01;
+    
     /*
-    5 properties:
-        1) SFX Object
-        2) Events
-        3) Game Sync
-        4) Interactive Music Hierarchy
-        5) Soundbank
     3 things it can do:
         1) read runtime game events
         2) play sfx

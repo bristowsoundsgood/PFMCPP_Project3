@@ -424,11 +424,11 @@ MOVE THEM to the space below this block comment and put them in numerical order
 
     Thing 1) Corner Shop
     5 properties:
-        1) registered business name 
-        2) location
-        3) year established
-        4) number of employees
-        5) yearly earning figure(s)
+        1) registered business name (std::string)
+        2) location (std::string)
+        3) year established (unsigned int)
+        4) number of employees (unsigned int)
+        5) yearly earning figure(s) (float)
     3 things it can do:
         1) predict monthly revenue
         2) hire new employees
@@ -436,11 +436,11 @@ MOVE THEM to the space below this block comment and put them in numerical order
     
     Thing 2) Artist Instagram Profile
     5 properties:
-        1) follower count
-        2) number of posts
-        3) number of external link taps in the past month 
-        4) number of accounts reached in the past month
-        5) number of accounts engaged in the past month
+        1) follower count (unsigned int)
+        2) number of posts (unsigned int)
+        3) number of external link taps in the past month (unsigned int)
+        4) number of accounts reached in the past month (unsigned int)
+        5) number of accounts engaged in the past month (unsigned int)
     3 things it can do:
         1) share posts to followers
         2) use ad tools to promote posts
@@ -448,11 +448,11 @@ MOVE THEM to the space below this block comment and put them in numerical order
     
     Thing 3) Sports Centre
     5 properties:
-        1) location
-        2) price per month
-        3) number of members
-        4) opening time
-        5) closing time
+        1) location (std::string)
+        2) price per month (float)
+        3) number of members (unsigned int)
+        4) opening time (float)
+        5) closing time (float)
     3 things it can do:
         1) host classes
         2) block entry to invalid members
@@ -460,11 +460,11 @@ MOVE THEM to the space below this block comment and put them in numerical order
     
     Thing 4) Online Job Listing
     5 properties:
-        1) job title
-        2) salary
-        3) job description
-        4) job location
-        5) deadline date
+        1) job title (std::string)
+        2) salary (float)
+        3) job description (std::string)
+        4) job location (std::string)
+        5) deadline date (std::string)
     3 things it can do:
         1) get current number of applicants
         2) accept applicants into interview
@@ -532,11 +532,11 @@ MOVE THEM to the space below this block comment and put them in numerical order
     
     Thing 10) Game Engine Middleware
     5 properties:
-        1) SFX Objects
+        1) SFX Object
         2) Events
-        3) Game Syncs
+        3) Game Sync
         4) Interactive Music Hierarchy
-        5) Soundbanks
+        5) Soundbank
     3 things it can do:
         1) read runtime game events
         2) play sfx

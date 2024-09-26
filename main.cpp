@@ -83,51 +83,51 @@ Main Object: Car Interior
         Name 4 nouns you'll find on the [Sub Object]
             1) paddle shifters
             2) 'cruise control' controls
-            3) 
-            4) 
+            3) horn
+            4) volume control buttons
         Name 2 actions that the [Sub Object] can do:
             1) adjust cruise control settings.
-            2)
+            2) change gear without using the gearstick.
         
     Sub Object: Instrument Cluster
         Name 4 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
-            4)
+            1) speedometer
+            2) tachometer
+            3) temperature display
+            4) indicator display
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) display the current km/h of the car
+            2) display the current RPM of the car
+            3) display the current operating temperature of the car 
     
     Sub Object: Environment Controls
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) air conditioning button
+            2) temperature control wheel
+            3) footwell heater button
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) toggle air conditioning on/off
+            2) control the temperature of the air released into car
+            3) toggle footwell heating on/off
 
     Sub Object: Infotainment System
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) radio button
+            2) call button
+            3) volume wheel
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) connect to nearby radio stations 
+            2) accept incoming calls
+            3) control speaker volume
 
     Sub Object: Seat 
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) headrest
+            2) seat angle lever
+            3) seat displacement lever
         Name 2 actions that the [Sub Object] can do:
-            1)
-            2)
+            1) provide head support for users
+            2) adjust seat distance from dashboard
 */
 
 /*
@@ -195,56 +195,7 @@ Part 1b - Step 2: Assignment
         primitives.
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
-
-Thing 1)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 2)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 3)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 4)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 */
-
 /*
 =================
 Part 1b - Step 3: Commit
@@ -336,18 +287,6 @@ Part 1c - Step 4: Assignment
 Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
-
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
  */
 
  /*
@@ -434,67 +373,7 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
  */
-
 /*
 =================
 Part 1d - Step 3: Commit
@@ -527,7 +406,6 @@ Part 1d - Step 5: Commit
 Now that you've made changes to the code, make a commit!
 Be sure to make the commit message meaningful.
 */
-
 /*
 ===================
 Part 1d - Step 6: assignment
@@ -543,15 +421,127 @@ MOVE THEM to the space below this block comment and put them in numerical order
     I do not want to see 2 copies of your Plain-English UDTs.  
     I only want to see the 10 UDTs written BELOW this block comment, in numerical order (1 - 10).
     simply CUT and PASTE them in the space provided below:
+
+    Thing 1) Corner Shop
+    5 properties:
+        1) registered business name (std::string)
+        2) location (std::string)
+        3) year established (unsigned int)
+        4) number of employees (unsigned int)
+        5) yearly earning figure(s) (float)
+    3 things it can do:
+        1) predict monthly revenue
+        2) hire new employees
+        3) close down shop
+    
+    Thing 2) Artist Instagram Profile
+    5 properties:
+        1) follower count (unsigned int)
+        2) number of posts (unsigned int)
+        3) number of external link taps in the past month (unsigned int)
+        4) number of accounts reached in the past month (unsigned int)
+        5) number of accounts engaged in the past month (unsigned int)
+    3 things it can do:
+        1) share posts to followers
+        2) use ad tools to promote posts
+        3) message other users
+    
+    Thing 3) Sports Centre
+    5 properties:
+        1) location (std::string)
+        2) price per month (float)
+        3) number of members (unsigned int)
+        4) opening time (float)
+        5) closing time (float)
+    3 things it can do:
+        1) host classes
+        2) block entry to invalid members
+        3) register new members
+    
+    Thing 4) Online Job Listing
+    5 properties:
+        1) job title (std::string)
+        2) salary (float)
+        3) job description (std::string)
+        4) job location (std::string)
+        5) deadline date (std::string)
+    3 things it can do:
+        1) get current number of applicants
+        2) accept applicants into interview
+        3) reject applicants from interview
+    
+    Thing 5) SFX Object
+    5 properties:
+        1) source filename (std::string)
+        2) sfx object name (std::string)
+        3) duration (float)
+        4) volume (float)
+        5) priority (int)
+    3 things it can do:
+        1) play source file
+        2) set source file volume
+        3) stop source file
+    
+    Thing 6) Event
+    5 properties:
+        1) event name (std::string)
+        2) action (enum)
+        3) target (std::string)
+        4) delay (float)
+        5) inclusion (bool)
+    3 things it can do:
+        1) receive incoming game event
+        2) perform actions on target
+        3) post
+    
+    Thing 7) Game Sync
+    5 properties:
+        1) sync name (std::string)
+        2) sync type (enum)
+        3) sync work unit (std::string)
+        4) sync folder (std::string)
+        5) sync colour (double)
+    3 things it can do:
+        1) receive incoming game information
+        2) switch sfx objects used for playback
+        3) change sfx object properties
+    
+    Thing 8) Interactive Music Hierarchy
+    5 properties:
+        1) music object name (std::string)
+        2) music object type (enum)
+        3) music object work unit (std::string)
+        4) music object folder (std::string)
+        5) music object colour (double)
+    3 things it can do:
+        1) respond to middleware game syncs
+        2) play music segments
+        3) randomise music playback
+    
+    Thing 9) Soundbank
+    5 properties:
+        1) soundbank name (std::string)
+        2) soundbank id (unsigned int)
+        3) soundbank size (unsigned int)
+        4) soundbank max size (unsigned int)
+        5) soundbank platforms (enum)
+    3 things it can do:
+        1) store all hierarchies for quick loading
+        2) compress data for optimisation
+        3) adapt data for different platforms
+    
+    Thing 10) Game Engine Middleware
+    5 properties:
+        1) SFX Object
+        2) Events
+        3) Game Sync
+        4) Interactive Music Hierarchy
+        5) Soundbank
+    3 things it can do:
+        1) read runtime game events
+        2) play sfx
+        3) randomise sfx properties
 */
-
-
-
-
-
-
-
-
 /*
 =================
 Part 1d - Step 7: Commit
@@ -594,30 +584,218 @@ Task: define an empty struct below your plain-English UDT.
 */
 namespace Part1E_Step1
 {
-/*
 
-my plain-English UDT: 
-
-Thing 1): Car Wash   
-    5 properties:
-        1) number of vacuum cleaners
-        2) number of eco-friendly cleaning supplies
-        3) stores the amount of water used per week.
-        4) stores amount of profit made per week
-        5) number of cars serviced per day
-    3 things it can do:
-        1) wash and wax car
-        2) charge customer
-        3) detail the car interior
- */
-struct CarWash  //This is the empty struct, below my plain-English UDT.  
+struct CornerShop
 {
-                //notice that no code is written inside the curly braces.
-};
-/*
-Notice that the struct name 'CarWash' conforms with the Course Coding Standard, described in the Readme.MD
-*/
+    // registered business name
+    std::string registeredBusinessName = "New Zealand Wines";
+    // location
+    std::string location = "Manchester, UK";
+    // year established
+    unsigned int yearEstablished = 1998;
+    // number of employees
+    unsigned int numberofEmployees = 10;
+    // yearly earnings
+    float yearlyEarnings = 46922.79f;
 
+    /*
+        3 things it can do:
+            1) predict monthly revenue
+            2) hire new employees
+            3) close down shop
+
+    */
+    
+};
+
+struct ArtistInstagramProfile
+{
+    // follower count
+    unsigned int followerCount = 148;
+    // number of posts
+    unsigned int numberOfPosts = 1;
+    // number of external link taps in past month
+    unsigned int monthlyExternalLinkTaps = 8;
+    // number of accounts reached in past month
+    unsigned int monthlyAccountsReached = 326;
+    // number of accounts engaged in past month
+    unsigned int monthlyAccountsEngaged = 99;
+
+    /*
+    3 things it can do:
+        1) share posts to followers
+        2) use ad tools to promote posts
+        3) message other users
+    */
+};
+
+struct SportsCentre
+{
+    // location
+    std::string location = "Manchester, UK";
+    // price per month 
+    float pricePerMonth = 35.0f;
+    // number of members
+    unsigned int numberOfMembers = 86;
+    // opening time
+    float openingTime = 6.0f;
+    // closing time
+    float closingTime = 22.0f;
+
+    /*
+    3 things it can do:
+        1) host classes
+        2) block entry to invalid members
+        3) register new members
+    */
+};    
+
+struct OnlineJobListing
+{
+    // job title
+    std::string jobTitle = "Technical Sound Designer";
+    // salary
+    float salary = 32000.0f;
+    // job description
+    std::string jobDescription = "Work closely with the audio, music and programming teams to create and implement complex audio         playback systems for games.";
+    // job location
+    std::string jobLocation = "London, UK";
+    // deadline date
+    std::string deadlineDate = "22nd November 2023";
+
+    /*
+    3 things it can do:
+        1) get current number of applicants
+        2) accept applicants into interview
+        3) reject applicants from interview
+    */
+};
+
+struct SFXObject
+{
+    // source filename
+    std::string sourceFilename = "JSB_TechReel_FOL_FNL_bulletHitDirt_v1.1";
+    // sfx object name
+    std::string objectName = "Bullet_Hit_Dirt_01";
+    // duration
+    float duration = 1.26f;
+    // volume
+    float volume = 6.00f;
+    // priority
+    int priority = 1;
+
+    /*
+    3 things it can do:
+        1) play source file
+        2) set source file volume
+        3) stop source file
+    */
+};
+
+struct Event
+{
+    // event name
+    std::string name = "Player_Fire";
+    // action
+    enum Action{play, stop, setState};
+    // target
+    std::string target = "M4_Gunshot";
+    // delay
+    float delay = 0.0f;
+    // inclusion
+    bool included = true;
+
+    /*
+    3 things it can do:
+        1) receive incoming game event
+        2) perform actions on target
+        3) post
+    */
+};  
+
+struct GameSync
+{
+    // sync name
+    std::string name = "Player Ammo";
+    // sync type
+    enum Type{RTPC};
+    // sync work unit
+    std::string workUnit = "Default Work Unit";
+    // folder
+    std::string folder = "Player RTPCs";
+    // colour
+    std::string colour = "RED";
+
+    /*
+    3 things it can do:
+        1) receive incoming game information
+        2) switch sfx objects used for playback
+        3) change sfx object properties
+    */
+};
+    
+struct InteractiveMusicHierarchy
+{
+    // music object name
+    std::string musicObjectName = "Explore_A";
+    // music object type
+    enum MusicObjectType{musicPlaylist, musicSegment};
+    // music object work unit
+    std::string workUnit = "Night";
+    // music object folder
+    std::string folder = "Night_Explore";
+    // music object colour
+    std::string colour = "PURPLE";
+
+    /*
+    3 things it can do:
+        1) respond to middleware game syncs
+        2) play music segments
+        3) randomise music playback
+    */
+};
+
+struct Soundbank
+{
+    // soundbank name
+    std::string name = "Main";
+    // soundbank id
+    unsigned int id = 3162752301;
+    // soundbank size
+    unsigned int size = 7221098;
+    // soundbank max size
+    unsigned int maxSize = 9000000;
+    // soundbank platforms
+    enum Platforms{Mac, Windows, PS4};
+
+    /*
+    3 things it can do:
+        1) store all hierarchies for quick loading
+        2) compress data for optimisation
+        3) adapt data for different platforms
+    */
+};
+
+struct GameAudioMiddleware
+{
+    // sfx object
+    SFXObject sfxObject01;
+    // event
+    Event event01;
+    // game sync
+    GameSync gameSync01;
+    // interactive music hierarchy
+    InteractiveMusicHierarchy imh01;
+    // soundbank
+    Soundbank soundbank01;
+    
+    /*
+    3 things it can do:
+        1) read runtime game events
+        2) play sfx
+        3) randomise sfx properties
+    */
+};
 /*
 =================
 Part 1e - Step 2: Commit
